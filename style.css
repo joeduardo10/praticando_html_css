@@ -16,3 +16,12 @@ body{
 h1{
     color: var(--branco-principal);
 }
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container{
+    height: 100vh;
+}
