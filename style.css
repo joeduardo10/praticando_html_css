@@ -1,13 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
    --branco-principal:#FFFFFF;
    --cinza-secundario:#C0C0C0;
    --botao-azul:#167BF7;
    --cor-de-fundo:#00030C ;
    --fonte-principal: 'Inter';
-}
-*{
-    margin: 0;
-    padding: 0;
 }
 
 body{
@@ -20,15 +20,21 @@ body{
 h1{
     color: var(--branco-principal);
 }
-.principal{
-    background-image: url(img/Background.png);
+.principal{ 
+    
+    background-image: url(img/Background1.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
+    
 }
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
+    
+   
 }
 .container__botao{
     display: block;
@@ -37,6 +43,7 @@ h1{
     padding: 1em;
     color: var(--branco-principal);
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao_secundario{
     text-decoration: none;
@@ -50,4 +57,33 @@ h1{
 .container__titulo{
     font-size: 1.75rem;
     font-weight: 700;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.secundario___imagem{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.3em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
 }
